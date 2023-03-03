@@ -18,7 +18,7 @@ rm -rf $HOME/.nolus/data
 
 ## Download latest snapshot
 ```
-curl -L https://snapshoots.nolus.kaelvnode.xyz/nolus/nolus-snapshot-20230302.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
+curl -L https://snapshoots.nolus.dattionode.my.id/nolus/nolus-snapshot-20230303.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
 ```
 
